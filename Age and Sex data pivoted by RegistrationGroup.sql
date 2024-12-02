@@ -33,7 +33,7 @@ from(
         END 'Elderly Men'
       FROM [progresSSISdb].[dbo].[Ind]
     where [Registration Group ID] in (
-            'Reg group IDs'
+            'Reg group IDs' --insert the list of registration group IDs
       )
 ) as Temp
 group by [Registration Group ID]
